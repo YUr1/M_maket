@@ -330,9 +330,8 @@ a:focus {
 }
 
 .span3 {
-  width: 185px;
-  padding-left:20px
-}
+  width: 181px;
+  padding-right: 40px;}
 
 .span2 {
   width: 140px;
@@ -5983,19 +5982,17 @@ a.badge:focus {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
-  width:965px;
-  margin:auto;
   text-align:center;
-  border-bottom:3px solid #ddd;
-  width:965px;
-  margin:auto;
+  border-bottom: 2px solid #ddd;
+  border-top: 2px solid #ddd;  width: 965px;  margin: auto;
 }
 
 .carousel-inner {
   position: relative;
   width: 965px;
   overflow: hidden;
-  margin:20px auto;
+  margin: 23px auto;
+  margin-bottom: 0px;
 }
 
 .carousel-inner > .item {
