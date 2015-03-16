@@ -1,0 +1,101 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+    <header class="container">
+            <?php if ($this->getIsHomePage()):?>
+            <div class="top">  
+                <?php echo $this->getChildHtml('store_language') ?>
+                <div class="kurs">
+                   <ul class="cash"> 
+                    <li><a href="#">us</a></li>
+                    <li><a href="#">eur</a></li>
+                    <li><a href="#">pln</a></li>
+                   </ul> 
+                </div>
+            </div>   
+        <label class="registr">
+             <p><a href="#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/user.png" alt=""/></a>welcome,you can <a href="#"?>LOGIN</a> or <a href="#"?>REGISTER</a></p>
+            <p><a href="#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/phone.png" alt=""/></a>hotline:<span class="numb">+88 987 654 321</span></p>
+            <div class="search"><?php echo $this->getChildHtml('topSearch') ?></div>
+        </label>
+        <div class="logo">
+            <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+        </div>
+        <div class="container3">
+            <div class="table_comfort" role="tabpanel">
+                <ul id="_tabs" class="nav nav-tabs">
+                    <li class="active tab" role="presentation">
+                       <a href="#style" role="tab" data-toggle="tab" aria-controls="style"></a>
+                       <h5 class="shop">
+                            <img src="http://localhost/magento/skin/frontend/levelup/default/images/cartt.png" alt=""/><a href="#style">SHOPPING CART : </a>
+                            <span class="cart_price">$129.00</span>
+                        </h5>
+                    </li>
+                    <li role="presentation" class="tab">
+                        <a href="#comfort" role="tab" data-toggle="tab" aria-controls="comfort"><h5><a href="#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/wishlist.png" alt=""/></a><a href="#comfort">WISHLIST :</a><span class="with">2</span></h5>
+                    </li>
+                </ul>
+            </div>  
+            <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="style">
+                        <div class="placehold">
+                            <div class="img_place"><a href"#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/placehold.png" alt=""/></a></div>
+                            <div class="fhashion"><strong><a href="#">FHASION BAG</a></strong><br><span class="price">$189.00</span></div>
+                            <div class="X"><a href"#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/X.png" alt=""/></div>
+                        </div>
+                        <div class="placehold">
+                            <div class="img_place"><a href"#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/placehold.png" alt=""/></a></div>
+                            <div class="fhashion"><strong><a href="#">SLIM PAINTS</a></strong><br><span class="price">$189.00</span></div>
+                            <div class="X"><a href"#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/X.png" alt=""/></div>
+                        </div>
+                     <div class="check">
+                        <p class="show"><a href="#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/plus.png" alt=""/> SHOW ALL PRODUCTS</a> <a href="#"><img src="http://localhost/magento/skin/frontend/levelup/default/images/checkout.png" alt=""/>CHECK OUT</a></p>
+                     </div>   
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="comfort">TEST2</div>
+            </div>
+         </div>
+    <div class="quick-access">
+        <ul class="menu">
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Sweaters</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Skirts</a></li>
+            <li><a href="#">Paints</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+        </ul>    
+    </div>  
+        <?php else:?>
+        <?php endif?>
+        
+        <?php echo $this->getChildHtml('topContainer'); ?>
+    </header>
+<?php echo $this->getChildHtml('topMenu') ?>

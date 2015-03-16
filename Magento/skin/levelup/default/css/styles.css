@@ -1,0 +1,568 @@
+@import url('base.css');
+@import url('normalize.css');
+@import url('skeleton.css');
+@import url('bootstrap.css');
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Signika:400,700,600,300);
+body{
+	background:white;
+	margin:0;
+	color: #595959;
+	padding:0;
+	width: 100%;
+	font-size: 12px;
+	font-family:'Signika', sans-serif 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+}
+.a {
+	color:#111;
+}
+a:hover,
+a:focus {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.wrapper{
+	width: 90%;
+	margin:auto;
+	background: #fbfbfb;
+}
+.wrapper2 {
+	width: 1180px;
+	margin: auto;
+}
+.top{
+}
+.logo{
+	text-align: center;
+	width: 200px;
+	display: inline-block;
+	/* overflow: hidden; */
+	/* position: relative; */
+	bottom: 30px;
+	left: 45px;
+	float: left;
+}
+.form_lang li {
+display: inline-block;
+padding-right: 6px;
+}
+.form-language{
+	float: left;
+	margin-top: 20px;
+}
+.kurs{
+	float:right;
+	margin-top: 20px;
+}
+.kurs li{
+	padding-left: 6px;
+}
+.search{
+	position: relative;
+	right: 15px;
+	bottom: 7px;
+	overflow: hidden;
+	width: 300px;
+	float: left;
+}
+.container3{
+	width: 505px;
+	overflow: hidden;
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 32px;
+}
+.form-search {
+	display: inline-block; 
+	margin: 5px 5px 0 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	background-position-x: 180px;
+	padding: 0px 25px 0px 10px;
+	border-radius: 51px;
+	font-style: italic;
+	font-size: 11px;
+	color: rgba(226, 19, 19, 0.5);
+  line-height: 1.2;
+	float: left;
+}
+#search{
+	background: url(http://localhost/magento/skin/frontend/levelup/default/images/searchicon.png) no-repeat right;
+	width: 275px;
+	height: 43px;
+	border-radius: 0;
+	font-weight: 600;
+	padding: 10px;
+	background-position-x: 245px;
+	font-style: normal;
+	font-family: 'Signika';
+	color: #9B8E8E;
+}
+.registr{
+	font-size: 12px;
+	float: left;
+	position: relative;
+	top: 105px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	right: 73px;
+	width: 400px;
+	overflow: hidden;
+
+}
+span.numb {
+	font-weight: bold;
+	font-size: 15px;
+	color: #837C7C;
+}
+.registr a{
+	font-weight: bold;
+}
+.registr img{
+	margin-right: 10px;
+}
+.li.active.tab{
+	border:1px solid #a59898;
+}
+.container3 img{
+	padding-right: 12px;
+}
+.with{
+	font-weight: bold;
+	padding-left: 3px;
+}
+.cart_price{
+	font-weight: bold;
+	color:#2ba08b;
+}
+.check{
+	background:#34a994;
+	height: 38px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.check p{
+margin: 0px;
+padding: 5px;
+}
+.show a{
+	padding-left: 20px;
+}
+.check a{
+	color:#fff;
+}
+.placehold {
+	width: 208px;
+	display: inline-block; 
+}
+.img_place{
+	display: inline-block;
+	padding: 15px;
+	padding-right: 5px;
+}
+.fhashion{
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	margin-right: 24px;
+}
+.X{
+	display: inline-block;
+}
+.span.price {
+  font-weight: 300;
+  }
+.quick-access li {
+	display: inline-block;
+	padding: 0px 49px 0px 0px;
+	font-weight: bold; 
+}
+.quick-access a{
+	font-size: 14px;
+}
+.quick-access{
+	border-bottom: 5px solid #34A994;;
+	/* overflow: hidden; */
+	/* position: relative; */
+	/* display: inline-block; */
+	overflow: hidden;
+	margin-top: 266px;
+	padding-left: 125px;
+	letter-spacing: 2px;
+}
+.menu{
+}
+.blocks{
+	overflow: hidden;
+}
+.block_febr {
+  width: 285px;
+  height: 680px;
+  margin:10px; 
+  margin-left: 0px;
+}
+.febr{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+.launches{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+}
+button.btn.btn-default {
+  width: 170px;
+  margin: 10px 50px;
+  }
+ .but{
+ 	margin: 100px 0px;
+ } 
+ .sale {
+  width: 562px;
+  height: 362px;
+  margin:10px;
+}
+.arrivals{
+	width: 293px;
+	height: 362px;
+	margin: 10px;
+	margin-right: 0px;
+}
+.sale,.block_febr,.arrivals,.block1,.block2 {
+  background: #ebebeb;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+.our{
+	text-align: center;
+	color: #fff;
+	word-spacing: 11px;
+	letter-spacing: 20px;
+	margin: 10px;
+}
+.arrival{
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.arriv{
+	margin: 130px 0px;
+}
+.block1{
+	width: 287px;
+	height: 298px;
+	margin: 10px;
+}
+.block2{
+	width: 558px;
+	height: 298px;
+	margin: 10px;
+}
+.featured{
+	font-size: 40px;
+	color: #595959;
+	margin: 5px 9px;
+	display: inline-block;
+}
+.sort_product {
+  margin: 25px 10px;
+  text-align: center;
+}
+.sort_product a {
+	margin: 0px 10px;
+}  
+.botom_sort {
+  display: inline-block;
+}
+.divider{
+	display: inline-block;
+	margin: 0px 10px;
+	position: relative;
+	bottom: 10px;
+}
+.bottom_arrivals{
+	font-size: 40px;
+	color: #595959;
+	margin: 5px 9px;
+	display: inline-block;
+	font-weight: 100;
+}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8 {
+  width: 279px;
+  height: 428px;
+  background: #ffffff;
+  display: inline-block;
+  margin: 7px;
+}
+.sub_col{
+  width: 279px;
+  height: 300px;
+  background: #cccccc;
+  overflow: hidden;
+}
+.col_logo{
+    width: 279px;
+    height: 128px;
+    background: #FFFFFF;
+}
+.line{
+	text-align: center;
+	margin: 0px 0;
+}
+.logo_envato{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.slim1, .slim2, .slim3, .slim4, .slim5, .slim6, .slim7, .slim8 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color:#595959;
+	margin-bottom: 5px;
+}
+.price_col1, .price_col2, .price_col3, .price_col4, .price_col5, .price_col6, .price_col7, .price_col8, .price_col_1, .price_col_2, .price_col_3, .price_col_4, .price_col_5 {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 100;
+	color:#595959;
+}
+.numb1, .numb2, .numb3, .numb4, .numb5, .numb6, .numb7, .numb8 {
+	text-align: center;
+	color: #969696;
+	font-size: 32px;
+	text-transform: none;
+
+	padding: 140px 0px;
+	margin: 0px;
+}
+.load_more{
+	text-align: center;
+	margin: 40px 0px;
+}
+.load{
+	font-weight: lighter;
+	font-size: 23px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+.load_more img{
+	position: relative;
+	bottom: 5px;
+	right: 3px;
+}
+.categ{
+	text-align: left;
+	font-size: 30px;
+	font-weight: lighter;
+	margin: 10px 28px;
+	letter-spacing: 2px;
+}
+.button_categ{
+	text-align: right;
+	overflow: hidden;
+	margin: 10px 0px;
+}
+.button_categ li{
+	padding: 0px 63px;
+	padding-left: 43px;
+	font-size: 13px;
+	font-weight: lighter;
+	overflow: hidden;
+	letter-spacing: 1px;
+}
+.category{
+	margin: 113px 0px;
+	overflow: hidden;
+	margin-bottom: 74px;
+}
+.latest{
+	text-align: center;
+	font-size: 35px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	margin-bottom: 28px;
+}
+.sub_column{
+	width: 223px;
+	height: 238px;
+	background: #cccccc;
+	overflow: hidden;
+}
+.column_logo{
+	width: 223px;
+	height: 107px;
+	background: #FFF;
+}
+.number1, .number2, .number3, .number4, .number5 {
+	text-align: center;
+	font-size: 23px;
+	padding: 109px 0px;
+	text-transform: none;
+	color: #969696;
+	margin: 0;
+}
+.slim_1, .slim_2, .slim_3, .slim_4, .slim_5, .slim_6, .slim_7, .slim_8 {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	color: #565454;
+	letter-spacing: 1px;
+}
+.logo_envato1{
+	text-align: center;
+	margin: -5px 0px;
+}
+.column_latest{
+	display: inline-block;
+	margin: 5px;
+	width: 223px;
+}
+.products{
+}
+.logo_line{
+	height: 134px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+	margin-bottom: 128px;
+}
+.logo_footer{
+	position: relative;
+    top: 68px;
+}
+.span_price6{
+	text-align: center;
+	font-size: 15px;
+	text-decoration: line-through;
+	margin-left: 85px;
+	font-weight: lighter;
+}
+.price_col6{
+	margin-right: 70px;
+}
+.span_price_2{
+	text-align: center;
+	font-size: 15px;
+	text-decoration: line-through;
+	margin-left: 55px;
+	font-weight: lighter;
+}
+.price_col_2{
+	margin-right: 47px;
+}
+.connect{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 1px;
+	color: #595959;
+}
+.ecommerce{
+	text-transform: none;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.footer-container	{
+	overflow: hidden;
+}
+.blocks_footer {
+  float: left;
+  background: #cccccc;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  margin-top: 3px;
+}
+.holiday, .contact_with_us, .new_arrivals, .our_support{
+  overflow: hidden;
+  float: left;
+  display: inline-block;
+  width: 266px;
+}
+.num, .num2{
+	text-align: center;
+	margin:0px;
+	padding: 28px 0px;
+	color: #969696;
+}
+.chanel, .chanel2, .chanel3, .chanel4{
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 83px;
+	margin-top: 3px;
+	letter-spacing: 1px;
+	margin-bottom: 1px;
+}
+.price_footer, .price_footer2 {
+  font-size: 16px;
+  margin-left: 84px;
+  font-weight: lighter;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+.line_footer1 {
+  margin-bottom: 12px;
+}
+.footer_block {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.price_footer2{
+	text-align: right;
+	margin-left: 5px;
+}
+.price- {
+  margin-left: 8px;
+  text-decoration: line-through;
+}
+.contact_with_us{
+	margin-right: 36px;
+}
+.holiday {
+  margin-right: 36px;
+}
+.new_arrivals {
+  margin-right: 38px;
+}
+.footer_buttons li{
+	text-transform: none;
+	font-size: 14px;
+	font-weight: lighter;
+	display: inherit;
+	padding: 3px 0px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+.footer_inner {
+  overflow: hidden;
+  margin-bottom: 70px;
+  }
+ .payment{
+ 	overflow: hidden;
+ 	text-align: center;
+}
+.payment li{
+padding: 13px;
+}
+.tab h5{
+    position: relative;
+    top: 6px;
+    padding-bottom: 5px;
+}
+.shop img{
+	position: relative;
+	bottom: 8px;
+	right: 8px;
+}
