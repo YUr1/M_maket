@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<layout>
+		<default>
+			<remove name="global_notices"/>
+		</default>
+		<default>
+        	<reference name="header">
+            	<block type="directory/currency" name="currency_header" template="currency/currency.phtml"/>
+        	</reference>
+    	</default>
+
+	</layout>	
